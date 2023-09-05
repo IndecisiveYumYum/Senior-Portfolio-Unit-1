@@ -1,19 +1,17 @@
 import random
 
-choices = ["R", "P", "S"]
-compChoice = ""
-playChoice = ""
+choices = ["r", "p", "s"]
 
 def compTurn():
     compChoice = random.choice(choices)
-    print(compChoice)
     return compChoice
 
 def playerTurn():
+    input()
     return
 
 def playGame():
     return
 
-compTurn()
+compChoice = compTurn()
 print(compChoice)
